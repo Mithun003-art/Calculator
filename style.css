@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: linear-gradient(rgb(111, 111, 189),rgb(112, 117, 140));
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+.cal_container{
+    height:460px;
+    width:300px;
+    background-image: linear-gradient(rgb(111, 111, 189),rgb(112, 117, 140));
+    box-shadow: 0px 0px 5px black;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 14px;
+}
+
+
+.input_cal{
+    height:60px;
+    width:90%;
+    margin-top: 15px;
+    margin-left: 14px;
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.buttonclass{
+    background-color: rgb(96, 86, 150);
+    border:none;
+    height:40px;
+    width:50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 16px;
+    color:white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
